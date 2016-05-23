@@ -5,6 +5,7 @@ project(video_splitter)
 find_package(catkin REQUIRED COMPONENTS
   cv_bridge
   image_transport
+  compressed_image_transport
   roscpp
   sensor_msgs
   std_msgs
