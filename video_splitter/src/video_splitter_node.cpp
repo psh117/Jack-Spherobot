@@ -79,7 +79,7 @@ public:
           {
               for(int c=0; c<dst.channels(); c++)
               {
-                  if ( ( (start_x + j) < 0 && (start_x + j) >= src.cols ) || ( (start_y + i) < 0 && (start_y + i) >= src.rows ) )
+                  if ( ( (start_x + j) < 0 || (start_x + j) >= src.cols ) || ( (start_y + i) < 0 || (start_y + i) >= src.rows ) )
                       dst.data[(i * dst.cols + j) * dst.channels() + c ] = 0;
                   else dst.data[(i * dst.cols + j) * dst.channels() + c ] = src.data[((i+start_y) * src.cols + (j+start_x)) * src.channels() + c];
               }
