@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jack_sphero_vr.iml" filepath="$PROJECT_DIR$/jack_sphero_vr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jack_sphero_vr/jack_sphero_vr-jack_sphero_vr.iml" filepath="$PROJECT_DIR$/jack_sphero_vr/jack_sphero_vr-jack_sphero_vr.iml" />
+    </modules>
+  </component>
+</project>

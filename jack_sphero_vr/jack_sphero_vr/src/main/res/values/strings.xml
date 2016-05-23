@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JackSpheroVr</string>
+    <string name="orientation_topic_name">jack_vr/orientation</string>
+</resources>

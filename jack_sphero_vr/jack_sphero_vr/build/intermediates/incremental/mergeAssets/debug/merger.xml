@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/src/debug/assets"/></dataSet></merger>

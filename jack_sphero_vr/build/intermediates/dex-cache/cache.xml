@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/std_msgs/0.5.9/68490f8a983f5415bb95ebf93010c347c4fd20d8/std_msgs-0.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68490f8a983f5415bb95ebf93010c347c4fd20d8">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/std_msgs-0.5.9-41dc894026cf33f02a853b292e62ed9b59e27b68.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.lang/2.4.0/686e3713650c8e3a5d98723b4d3e239586bf9822/com.springsource.org.apache.commons.lang-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686e3713650c8e3a5d98723b4d3e239586bf9822">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.lang-2.4.0-e8ec301a0961a4c3449de383932d67ef9db53e0a.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/apache_xmlrpc_common/0.2.1/a956178368232d0a9fccf501a8c91aacf2ac0256/apache_xmlrpc_common-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a956178368232d0a9fccf501a8c91aacf2ac0256">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/apache_xmlrpc_common-0.2.1-76be2ef0e7a57b665fad558940643e2af089d797.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/rosjava_test_msgs/0.2.1/e10783e01c21cbe271aa6062c87f20d11c6053f0/rosjava_test_msgs-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e10783e01c21cbe271aa6062c87f20d11c6053f0">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/rosjava_test_msgs-0.2.1-25eb4f3f562f1f4e01382dd12c20177c998776f4.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/diagnostic_msgs/1.11.7/119c52755000fa22288dd666c4185f54ca737410/diagnostic_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="119c52755000fa22288dd666c4185f54ca737410">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/diagnostic_msgs-1.11.7-17607b3a98b676663fec4f7dafd3c67fb046c6bb.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.httpclient/3.1.0/c493a925a091ac3d8f449d9265fe12482dabb2a7/com.springsource.org.apache.commons.httpclient-3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c493a925a091ac3d8f449d9265fe12482dabb2a7">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.httpclient-3.1.0-447e8fe895b70dc4671769519257dab780284969.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.codec/1.3.0/f8690570eb0913d750262bb4223eed30b0d619ed/com.springsource.org.apache.commons.codec-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8690570eb0913d750262bb4223eed30b0d619ed">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.codec-1.3.0-c5b8891cca63c712e2b93b15a86a7a1604cace12.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/actionlib_msgs/1.11.7/9ec983bb2eaaa20552edeb3544e04a45308fe71b/actionlib_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ec983bb2eaaa20552edeb3544e04a45308fe71b">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/actionlib_msgs-1.11.7-33b50156341d76f1e2a1d86bbd28ec56ba6aab13.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/jsr305-1.3.9-d7954da3b682b96b45b99b1c7c475e63551ea0c8.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.net/2.0.0/3e78766072ff5a5cf3f5431d973c430c94ec612/com.springsource.org.apache.commons.net-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="03e78766072ff5a5cf3f5431d973c430c94ec612">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.net-2.0.0-76af9fdd43854fdd00da611ab9a8ca922d493835.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/12.0/5bc66dd95b79db1e437eb08adba124a3e4088dc0/guava-12.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/guava-12.0-322cdf56beaaffdd388a907417db2d0735aafaa6.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/tf2_msgs/0.5.9/b2fea11356b0f4ce744f30ac76e987b531b6028e/tf2_msgs-0.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2fea11356b0f4ce744f30ac76e987b531b6028e">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/tf2_msgs-0.5.9-8a24a937e36a073c7416b15390e9fb2906097595.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/4572d589699f09d866a226a14b7f4323c6d8f040/commons-pool-1.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4572d589699f09d866a226a14b7f4323c6d8f040">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/commons-pool-1.6-c9dedb836ecbda60fc8674faf79745f9cbe4b44f.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/message_generation/0.2.1/dc3afb66cd5aa168a71bcb63ba89560b197b9300/message_generation-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dc3afb66cd5aa168a71bcb63ba89560b197b9300">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/message_generation-0.2.1-cb4e1620be75b8003b72445b014983c64fa09f24.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.io/1.4.0/51097cd000ec88214ff181c9f059947de1cf4a35/com.springsource.org.apache.commons.io-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="51097cd000ec88214ff181c9f059947de1cf4a35">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.io-1.4.0-d3807010fd2477f39d96cac2dfcc98ec55834e80.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.5.2.Final/e6fb74a0699abe108969b2ec1f269391169a0426/netty-3.5.2.Final.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e6fb74a0699abe108969b2ec1f269391169a0426">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/netty-3.5.2.Final-65cb25b94d9bb5ab0d05ed974e1ff630138f7a1b.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/apache_xmlrpc_client/0.2.1/55f1cf075db9507a26102898e9f146221e4c1aaf/apache_xmlrpc_client-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="55f1cf075db9507a26102898e9f146221e4c1aaf">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/apache_xmlrpc_client-0.2.1-ea44ae911669c06db4f68a2dd456ba5779fd4a42.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/apache_xmlrpc_server/0.2.1/f96701e8f578b6a4fc538e8a8a6b8f9256fd6718/apache_xmlrpc_server-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f96701e8f578b6a4fc538e8a8a6b8f9256fd6718">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/apache_xmlrpc_server-0.2.1-e63d69850c31cbffdc882e087b8e0a8892041870.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/nav_msgs/1.11.7/13b7b4aae1bf791c4f3a3a9ef68e58015cff1152/nav_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="13b7b4aae1bf791c4f3a3a9ef68e58015cff1152">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/nav_msgs-1.11.7-8a46039800a2c35374f255ec5187afe945380618.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_bootstrap/gradle_plugins/0.2.1/33c05915db7ef72ac3978d33b16abd1b4b06fec9/gradle_plugins-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="33c05915db7ef72ac3978d33b16abd1b4b06fec9">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/gradle_plugins-0.2.1-ff7d626ad09c02c9af79042e7a2281ad260e42fb.jar" />
+    </item>
+    <item
+        jar="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c3a30924c3f64ed4870fa76411f01ae2be62abcc">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/classes-a4c911216d2559cb0c4423554e3555c6500f3f85.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/geometry_msgs/1.11.7/bb9ca9051697047f8ebacae69956aa562d43b0e1/geometry_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bb9ca9051697047f8ebacae69956aa562d43b0e1">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/geometry_msgs-1.11.7-bcc8c6ddb233cbe0c382e30aa50db7d213530894.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/sensor_msgs/1.11.7/5f0b7ac0b5d341b9b37f408ab45c4a2e4c80068e/sensor_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5f0b7ac0b5d341b9b37f408ab45c4a2e4c80068e">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/sensor_msgs-1.11.7-817fbcfff831155d444cd0031208808d687d6a9b.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_core/rosjava/0.2.1/68face01dcd34ac0dd82fc3745afd764d330b427/rosjava-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68face01dcd34ac0dd82fc3745afd764d330b427">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/rosjava-0.2.1-f837e448b39ebf81298721ef9222dffff82dbf5e.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.apache.commons/com.springsource.org.apache.commons.logging/1.1.1/7657caf2c78e1d79c74d36f2ae128a115f7cc180/com.springsource.org.apache.commons.logging-1.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7657caf2c78e1d79c74d36f2ae128a115f7cc180">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/com.springsource.org.apache.commons.logging-1.1.1-69e67a44d7803dcc94120ea787d8b7185011dea4.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/dnsjava/dnsjava/2.1.1/5708df81cf6dbff545695f0be6380b7bbc85accc/dnsjava-2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5708df81cf6dbff545695f0be6380b7bbc85accc">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/dnsjava-2.1.1-655f395bbf6b03eadb2bb4213dc8c6631b048168.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.ros.rosjava_messages/rosgraph_msgs/1.11.1/e3d30a4a74f6282d014f7fd9828f5131bb3a9915/rosgraph_msgs-1.11.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d30a4a74f6282d014f7fd9828f5131bb3a9915">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/rosgraph_msgs-1.11.1-1f11e07eb8a1be1ff101e5d1bf7e461719f2ee03.jar" />
+    </item>
+    <item
+        jar="/home/suhan/.gradle/caches/modules-2/files-2.1/org.apache.ws.commons/ws-commons-util/1.0.1/126e80ff798fece634bc94e61f8be8a8da00be60/ws-commons-util-1.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="126e80ff798fece634bc94e61f8be8a8da00be60">
+        <dex dex="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/pre-dexed/debug/ws-commons-util-1.0.1-c9e48c109a0f3f5c81be943ad6270be3dd6ea82b.jar" />
+    </item>
+
+</items>
