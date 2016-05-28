@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">JackSpheroVr</string>
     <string name="orientation_topic_name">jack_vr/orientation</string>
+    <string name="camera_topic">image_raw/compressed_image</string><!--compressed_image-->
+
 </resources>

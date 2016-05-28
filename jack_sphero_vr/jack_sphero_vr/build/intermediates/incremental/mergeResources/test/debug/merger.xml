@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/src/androidTest/res"/><source path="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/generated/res/rs/test/debug"/><source path="/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/generated/res/generated/test/debug"/></dataSet><mergedItems/></merger>
+<merger version="3"><dataSet config="main"><source path="/home/ks/jack_sphero_vr/jack_sphero_vr/src/androidTest/res"/><source path="/home/ks/jack_sphero_vr/jack_sphero_vr/build/generated/res/rs/test/debug"/><source path="/home/ks/jack_sphero_vr/jack_sphero_vr/build/generated/res/generated/test/debug"/></dataSet><mergedItems/></merger>
