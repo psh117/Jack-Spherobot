@@ -121,4 +121,4 @@
         android:text="@string/cancel"/>
 
 </LinearLayout>
-<!-- From: file:/opt/android_core/src/android_core/android_10/res/layout/master_chooser.xml --><!-- From: file:/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/layout/master_chooser.xml -->
+<!-- From: file:/opt/android_core/src/android_core/android_10/res/layout/master_chooser.xml --><!-- From: file:/home/ks/jack_sphero_vr/jack_sphero_vr/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/layout/master_chooser.xml -->
