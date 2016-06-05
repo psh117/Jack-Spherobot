@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MK64FN1M0xxx12</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M4</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>256k</SRAMsize>
+    <FLASHsize>1M</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>/home/suhan/kinetis_ws/jack-spherobot/Project_Settings/Linker_Files/ProcessorExpert.ld</LinkerCommandFile>
+    <IncludePaths>
+      <Path>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/system/</Path>
+      <Path>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/</Path>
+      <Path>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/iofiles/</Path>
+      <Path>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/peripherals/</Path>
+      <Path>/home/suhan/kinetis_ws/jack-spherobot/Sources/</Path>
+      <Path>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/</Path>
+      <Path>/home/suhan/kinetis_ws/jack-spherobot/Project_Settings/Startup_Code/</Path>
+      <Path>/home/suhan/kinetis_ws/jack-spherobot/Sources/</Path>
+      <Path>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/peripherals/</Path>
+      <Path>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/system/</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/AD1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/ASBluetooth.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/ASDXL.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/ASerialLdd1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/ASerialLdd2.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd2.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd3.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd4.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd5.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd6.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd7.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd8.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd9.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/CAN1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/CDC1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/CS1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Cpu.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/CsIO1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M1A.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M1B.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M2A.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M2B.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M3A.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M3B.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/IO1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/KSDK1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/LED_BLUE.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/LED_GREEN.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/LED_RED.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor1_Dir_A.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor1_Dir_B.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor1_PWM.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor2_Dir_A.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor2_Dir_B.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor2_PWM.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor3_Dir_A.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor3_Dir_B.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor3_PWM.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PE_LDD.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Pins1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PwmLdd1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PwmLdd2.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PwmLdd3.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Rx1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/TIMotorCtrl.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/TMOUT1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/TU1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/TU2.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Tx1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/USB1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/WAIT1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_cdc.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_cdc_pstn.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_class.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_dci_kinetis.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_descriptor.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_driver.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_framework.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/wdt_kinetis.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Project_Settings/Startup_Code/startup.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/Events.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/MW-AHRSv1.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/main.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/pid_control.c</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/quad_encoder.c</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/peripherals/USB0_Init.c</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/peripherals/VREF_Init.c</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/system/CPU_Init.c</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/system/Peripherals_Init.c</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/system/Vectors.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/AD1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/ASBluetooth.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/ASDXL.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/ASerialLdd1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/ASerialLdd2.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd2.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd3.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd4.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd5.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd6.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd7.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd8.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/BitIoLdd9.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/CAN1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/CDC1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/CPU_Config.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/CS1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Cpu.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/CsIO1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M1A.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M1B.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M2A.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M2B.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M3A.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/EInt_M3B.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/FSL_USB_Stack_Config.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/IO1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/IO_Map.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Init_Config.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/KSDK1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/LED_BLUE.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/LED_GREEN.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/LED_RED.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor1_Dir_A.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor1_Dir_B.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor1_PWM.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor2_Dir_A.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor2_Dir_B.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor2_PWM.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor3_Dir_A.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor3_Dir_B.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Motor3_PWM.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PE_Const.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PE_Error.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PE_LDD.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PE_Types.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Pins1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PwmLdd1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PwmLdd2.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/PwmLdd3.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Rx1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/TIMotorCtrl.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/TMOUT1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/TU1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/TU2.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Tx1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/USB0.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/USB0_Config.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/USB1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/USB_Config.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/VREF.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/VREF_Config.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/Vectors_Config.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/WAIT1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/derivative.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/hidef.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/types.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_bdt_kinetis.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_cdc.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_cdc_pstn.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_class.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_dci_kinetis.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_dciapi.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_descriptor.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_devapi.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_framework.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/usb_user_config.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Generated_Code/wdt_kinetis.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/Events.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/MW-AHRSv1.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/main.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/pid_control.h</PathName>
+      <PathName>/home/suhan/kinetis_ws/jack-spherobot/Sources/quad_encoder.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/iofiles/MK64F12.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/ADC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/CAN_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/CMP_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/CMT_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/CRC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DAC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DMAMUX_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/DMA_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/ENET_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/EWM_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/FMC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/FTFE_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/FTM_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/I2C_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/LLWU_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/LPTMR_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/MCG_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/MCM_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/OSC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PDB_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PIT_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PMC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/PORT_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/RCM_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/RNGA_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/RTC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SAI_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SCB_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SDHC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SIM_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SMC_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SPI_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/SysTick_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/UART_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/USBDCD_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/USB_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/VREF_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/lib/Kinetis/pdd/inc/WDOG_PDD.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/peripherals/USB0_Init.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/peripherals/VREF_Init.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/system/CPU_Init.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/system/PDD_Includes.h</PathName>
+      <PathName>/opt/Freescale/KDS_v3/eclipse/ProcessorExpert/Repositories/Kinetis_Repository/lib/Kinetis/pdd2/MK64FN1M0LL12/system/Peripherals_Init.h</PathName>
+    </GeneratedHs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>
