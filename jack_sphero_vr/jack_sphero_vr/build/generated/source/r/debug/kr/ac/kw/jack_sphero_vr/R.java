@@ -9,6 +9,32 @@ package kr.ac.kw.jack_sphero_vr;
 
 public final class R {
     public static final class attr {
+        /** <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>any</code></td><td>-1</td><td></td></tr>
+<tr><td><code>back</code></td><td>99</td><td></td></tr>
+<tr><td><code>front</code></td><td>98</td><td></td></tr>
+</table>
+         */
+        public static final int camera_id=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int show_fps=0x7f010000;
     }
     public static final class drawable {
         public static final int error=0x7f020000;
@@ -17,20 +43,23 @@ public final class R {
         public static final int warn=0x7f020003;
     }
     public static final class id {
-        public static final int advancedOptions=0x7f070008;
-        public static final int advanced_checkBox=0x7f070007;
-        public static final int image_L=0x7f070001;
-        public static final int image_R=0x7f070002;
-        public static final int interfaceLabel=0x7f070009;
-        public static final int main_layout=0x7f070000;
-        public static final int master_chooser_cancel=0x7f07000d;
-        public static final int master_chooser_new_master_button=0x7f07000b;
-        public static final int master_chooser_new_private_master_button=0x7f07000c;
-        public static final int master_chooser_ok=0x7f070006;
-        public static final int master_chooser_qr_code_button=0x7f070005;
-        public static final int master_chooser_uri=0x7f070004;
-        public static final int networkInterfaces=0x7f07000a;
-        public static final int textView=0x7f070003;
+        public static final int advancedOptions=0x7f07000b;
+        public static final int advanced_checkBox=0x7f07000a;
+        public static final int any=0x7f070000;
+        public static final int back=0x7f070001;
+        public static final int front=0x7f070002;
+        public static final int image_L=0x7f070004;
+        public static final int image_R=0x7f070005;
+        public static final int interfaceLabel=0x7f07000c;
+        public static final int main_layout=0x7f070003;
+        public static final int master_chooser_cancel=0x7f070010;
+        public static final int master_chooser_new_master_button=0x7f07000e;
+        public static final int master_chooser_new_private_master_button=0x7f07000f;
+        public static final int master_chooser_ok=0x7f070009;
+        public static final int master_chooser_qr_code_button=0x7f070008;
+        public static final int master_chooser_uri=0x7f070007;
+        public static final int networkInterfaces=0x7f07000d;
+        public static final int textView=0x7f070006;
     }
     public static final class layout {
         public static final int main=0x7f040000;
@@ -56,4 +85,59 @@ public final class R {
     public static final class style {
         public static final int padded=0x7f060000;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a CameraBridgeViewBase.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CameraBridgeViewBase_camera_id kr.ac.kw.jack_sphero_vr:camera_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #CameraBridgeViewBase_show_fps kr.ac.kw.jack_sphero_vr:show_fps}</code></td><td></td></tr>
+           </table>
+           @see #CameraBridgeViewBase_camera_id
+           @see #CameraBridgeViewBase_show_fps
+         */
+        public static final int[] CameraBridgeViewBase = {
+            0x7f010000, 0x7f010001
+        };
+        /**
+          <p>This symbol is the offset where the {@link kr.ac.kw.jack_sphero_vr.R.attr#camera_id}
+          attribute's value can be found in the {@link #CameraBridgeViewBase} array.
+
+
+          <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>any</code></td><td>-1</td><td></td></tr>
+<tr><td><code>back</code></td><td>99</td><td></td></tr>
+<tr><td><code>front</code></td><td>98</td><td></td></tr>
+</table>
+          @attr name kr.ac.kw.jack_sphero_vr:camera_id
+        */
+        public static final int CameraBridgeViewBase_camera_id = 1;
+        /**
+          <p>This symbol is the offset where the {@link kr.ac.kw.jack_sphero_vr.R.attr#show_fps}
+          attribute's value can be found in the {@link #CameraBridgeViewBase} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name kr.ac.kw.jack_sphero_vr:show_fps
+        */
+        public static final int CameraBridgeViewBase_show_fps = 0;
+    };
 }

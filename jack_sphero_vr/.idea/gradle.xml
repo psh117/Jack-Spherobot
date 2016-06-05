@@ -9,12 +9,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/jack_sphero_vr" />
+            <option value="$PROJECT_DIR$/openCVLibrary2411" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/jack_sphero_vr" />
+            <option value="$PROJECT_DIR$/openCVLibrary2411" />
           </set>
         </option>
       </GradleProjectSettings>

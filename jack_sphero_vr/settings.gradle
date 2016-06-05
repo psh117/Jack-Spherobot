@@ -19,3 +19,4 @@ include 'my_android_project'
 include 'my_android_library_project'
 */
 include 'jack_sphero_vr'
+include ':openCVLibrary2411'

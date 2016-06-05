@@ -66,6 +66,7 @@ MERGED from org.ros.android_core:android_10:0.2.0:21:9
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from org.ros.android_core:android_10:0.2.0:8:5
+MERGED from com.github.rosjava.jack_sphero_vr:openCVLibrary2411:0.1.0:7:5
 	android:targetSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0

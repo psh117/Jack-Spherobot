@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/ks/jack_sphero_vr/jack_sphero_vr/src/main/res/values/strings.xml -->
+    <declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id"><enum name="any" value="-1"/><enum name="back" value="99"/><enum name="front" value="98"/></attr></declare-styleable>
+    <!-- From: file:/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">JackSpheroVr</string>
     <string name="camera_topic">image_raw/compressed_image</string>
-    <!-- From: file:/home/ks/jack_sphero_vr/jack_sphero_vr/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/values/values.xml -->
+    <!-- From: file:/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="cancel">Cancel</string>
     <string name="master_uri_hint">http://localhost:11311/</string>
     <string name="new_master">New Public Master</string>
     <string name="new_private_master">New Private Master</string>
-    <!-- From: file:/home/ks/jack_sphero_vr/jack_sphero_vr/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="orientation_topic_name">jack_vr/orientation</string>
-    <!-- From: file:/home/ks/jack_sphero_vr/jack_sphero_vr/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/values/values.xml -->
+    <!-- From: file:/home/suhan/android_ws/src/jack_sphero_vr/jack_sphero_vr/build/intermediates/exploded-aar/org.ros.android_core/android_10/0.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="qr_code">Read QRCode</string>
     <string name="select_interface">Select network interface</string>
