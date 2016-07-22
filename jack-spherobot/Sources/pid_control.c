@@ -2,7 +2,7 @@
  * pid_control.c
  *
  *  Created on: 2016. 4. 30.
- *      Author: bdmm0
+ *      Author: Suhan Park
  */
 
 #include "pid_control.h"
