@@ -2,7 +2,7 @@
  * pid_control.h
  *
  *  Created on: 2016. 4. 30.
- *      Author: bdmm0
+ *      Author: Suhan Park
  */
 
 #ifndef SOURCES_PID_CONTROL_H_
